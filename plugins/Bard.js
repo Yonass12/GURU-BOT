@@ -27,7 +27,7 @@ mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
         } else {
-            throw '_*♧فشل ○جلب البيانات من API.♧_*';
+            throw '*فشل جلب البيانات من API.*';
         }
     } catch (error) {
         console.error(error);
