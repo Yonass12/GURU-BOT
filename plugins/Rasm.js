@@ -2,10 +2,10 @@ import fetch from 'node-fetch'
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
     if (!text) return m.reply('هذا الامر خاص بتوليد صور من rsm سوف أعطيك مثالا تكتب هكذاا :\n\n*.rsm*a 26 years old boy salutes the national flag of morocco and he is wearing a shirt print is likemorocco flag and "bobiza" and 10 number anddima meghribe in small is written on it s back inbig and bold fonts, 3d illustration')
-    m.reply("*_🎋LOADING🎋_*")
+    m.reply("*_♧LOADING♧_*")
 
     try {
-        let response = await fetch(`https://api.maelyn.my.id/api/bingimage?prompt=${text}&apikey=YBnBY4LYw8`)
+        let response = await fetch(`https://api.maelyn.my.id/api/bingimage?prompt=${text}&apikey=ezDHsk9rIX`)
         let result = await response.json()
 
         if (result.status === "Success" && result.result.length > 0) {
