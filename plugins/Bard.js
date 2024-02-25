@@ -22,7 +22,7 @@ let handler = async (m, { conn, text }) => {
 externalAdReply: {
 title: "♤PRINCE-GDS♤",
 thumbnailUrl: "https://i.imgur.com/CMxsGAu.jpeg",
-sourceUrl: "https://www.instagram.com/mouhaobass12?igsh=MW8xbXB1ejR5YWdoMw==",
+
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
