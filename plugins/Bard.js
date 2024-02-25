@@ -2,7 +2,7 @@ import axios from 'axios';
 
 let handler = async (m, { conn, text }) => {
     try {
-        if (!text) throw 'معك الذكاء الاصطناعي الخاص بغوغل يمكنك ان تسألني ما تشاء مثال : \n\n*.bardai من هو اول عربي بدأ في مجال بوتات الواتساب* ';
+        if (!text) throw 'معك الذكاء الاصطناعي الخاص بغوغل يمكنك ان تسألني ما تشاء مثال : \n\n*.ba من هو اول عربي بدأ في مجال بوتات الواتساب* ';
 
         
 
@@ -20,14 +20,14 @@ let handler = async (m, { conn, text }) => {
       text: erka,
       contextInfo: {
 externalAdReply: {
-title: "💫PRINCE-GDS💫",
-thumbnailUrl: "https://telegra.ph/file/e42651598c83afe3e85e0.jpg",
-sourceUrl: "https://bard.google.com",
+title: "♤PRINCE-GDS♤",
+thumbnailUrl: "https://i.imgur.com/CMxsGAu.jpeg",
+sourceUrl: "https://www.instagram.com/mouhaobass12?igsh=MW8xbXB1ejR5YWdoMw==",
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
         } else {
-            throw '_فشل جلب البيانات من API._';
+            throw '_*♧فشل ○جلب البيانات من API.♧_*';
         }
     } catch (error) {
         console.error(error);
