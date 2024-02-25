@@ -1,7 +1,7 @@
 import fetch from 'node-fetch' 
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-    if (!text) return m.reply('هذا الامر خاص بتوليد صور من rsm سوف أعطيك مثالا تكتب هكذاا :\n\n*.rsm*a 26 years old boy salutes the national flag of morocco and he is wearing a shirt print is likemorocco flag and "bobiza" and 10 number anddima meghribe in small is written on it s back inbig and bold fonts, 3d illustration')
+    if (!text) return m.reply('*_♡إصنع صورك ○ بهاذا الأمر♡_*')
     m.reply("*_♧LOADING♧_*")
 
     try {
